@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>js class</title>
+        
+    </head>
+    <script>
+
+    </script>
+    <body>
+        <script src="./js/script.js"></script>
+        <script>
+          class MyA{
+                //1.properties.
+            x=10;
+            z;
+
+                //2.constructor().
+
+            constructor(y){
+                // super(y);
+                this.z=y;
+            }
+                //3.methods.
+
+            hello(){
+                console.log(this.x+this.z);
+            }
+
+            }
+            let ob1=new MyA(20);
+            let a=ob1.hello();
+           // console.log()
+        </script>
+
+    </body>
+</html>
