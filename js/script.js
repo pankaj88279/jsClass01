@@ -98,6 +98,7 @@ obja.student1();
         y=3;
         z=5;
         q;
+        
 
 
         //2.constructor.
@@ -113,5 +114,29 @@ obja.student1();
         }
 
     }
-    let objg=new MyG(5);
-    objg.reet();
+     let objg=new MyG(5);
+     objg.reet();
+
+    class MyH{
+
+        //1.properties.
+        x=2;
+        t;
+        //2.constructor.
+        constructor(x){
+            this.t=x
+
+        }
+        //3.methods.
+
+        speed(){
+
+            console.log(this.x+this.t)
+        }
+
+
+    }
+
+    let objh=new MyH(20);
+    objh.speed();
+    
